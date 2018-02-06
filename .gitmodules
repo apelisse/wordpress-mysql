@@ -1,0 +1,6 @@
+[submodule "mysql"]
+	path = mysql
+	url = https://github.com/kinflate/mysql
+[submodule "wordpress"]
+	path = wordpress
+	url = https://github.com/kinflate/wordpress
