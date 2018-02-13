@@ -5,7 +5,7 @@ metadata:
 # This is not using an persistent volume, but we ues empty dir.
 # https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.9/#volume-v1-core
 description: Wordpress MySQL Deployment using empty dir
-resources:
+packages:
   - wordpress/
   - mysql/
 patches:
