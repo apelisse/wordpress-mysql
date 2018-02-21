@@ -4,7 +4,7 @@ metadata:
   name: wordpress-mysql
 description: Wordpress MySQL Deployment using empty dir
 packages:
-  - wordpress/
-  - mysql/
+  - ../wordpress/emptyDir/
+  - ../mysql/emptyDir/
 patches:
   - patch.yaml
